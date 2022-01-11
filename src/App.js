@@ -8,6 +8,7 @@ function App() {
           <p className="">Gerð hugbúnaðar sem auðveldar uppsetningu á vefmyndavélum. Notað
                 var Python með Flask frameworkinu og Javascript til að búa til Shell
                 scriptur og möppur sem þurfti.<br/>
+                
                 Einnig gervigreindar verkefni sem snérist um að greina ský út frá
                 myndum vefmyndavéla veðurstofunnar. Þjálfunargögn voru gerð með
                 notkun maska á myndum og var notast við U-net til að þjálfa gögnin.</p>
