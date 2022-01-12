@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e129bbf1.css",
-    "main.js": "/portfolio/static/js/main.b04d158e.js",
+    "main.css": "/portfolio/static/css/main.891378d0.css",
+    "main.js": "/portfolio/static/js/main.063128d4.js",
     "static/media/nonni.png": "/portfolio/static/media/nonni.c97387a938e6fed64286.png",
     "index.html": "/portfolio/index.html",
-    "main.e129bbf1.css.map": "/portfolio/static/css/main.e129bbf1.css.map",
-    "main.b04d158e.js.map": "/portfolio/static/js/main.b04d158e.js.map"
+    "main.891378d0.css.map": "/portfolio/static/css/main.891378d0.css.map",
+    "main.063128d4.js.map": "/portfolio/static/js/main.063128d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e129bbf1.css",
-    "static/js/main.b04d158e.js"
+    "static/css/main.891378d0.css",
+    "static/js/main.063128d4.js"
   ]
 }
