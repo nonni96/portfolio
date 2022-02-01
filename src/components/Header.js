@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import nonniMynd from './assets/img/nonni.png';
+import nonniMynd from '../assets/img/nonni.png';
 
 function Header() {
     const [fullname, setFullname] = useState("");
@@ -32,7 +32,7 @@ function Header() {
             await waitForMs(200);
             setHigherCursor(false);
             setLowerCursor(true);
-            await typeSentence('Veb Developer', 'lower');
+            await typeSentence('Web Developer', 'lower');
         }
         callFunctions();
     }, []);
@@ -42,12 +42,12 @@ function Header() {
             <div className="grid grid-cols-1 lg:grid-cols-5 py-10">
                 <div className='flex flex-col items-start justify-center col-span-4'>
                     <div className='flex pb-2'>
-                        <h1 className="font-mono text-5xl lg:text-7xl font-bold">{fullname}</h1>
-                        {higherCursor ? <span id="input-cursor" className="inline-block w-1.5 lg:w-2  h-12 lg:h-20 bg-black ml-3 lg:ml-4"></span> : ''}
+                        <h1 className="font-mono text-3xl sm:text-5xl lg:text-7xl font-bold">{fullname}</h1>
+                        {higherCursor ? <span id="input-cursor" className="inline-block w-1 sm:w-1.5 lg:w-2 h-10 sm:h-12 lg:h-20 bg-black ml-2 sm:ml-3 lg:ml-4"></span> : ''}
                     </div>
                     <div className='flex'>
-                        <h3 className="font-mono text-3xl lg:text-5xl font-bold">{jobTitle}</h3>
-                        {lowerCursor ? <span id="input-cursor" className="inline-block w-1 lg:w-1.5  h-8 lg:h-12 bg-black ml-1 lg:ml-3"></span> : ''}
+                        <h3 className="font-mono text-xl sm:text-3xl lg:text-5xl font-bold">{jobTitle}</h3>
+                        {lowerCursor ? <span id="input-cursor" className="inline-block w-1 lg:w-1.5 h-6 sm:h-9 lg:h-12 bg-black ml-1 lg:ml-3"></span> : ''}
                     </div>
                 </div>
                 <div className='flex items-center justify-center'>
